@@ -35,7 +35,7 @@ addpath('matrix_fitting_toolbox_1')
 | Figure 8.4 | `run_fig4_exam2_converg` |
 | Figure 8.5 | `run_fig5_changheng` |
 
-`run_table1_10times` and `run_table2_10times` each average ten runs and write `table1_10times.tex` and `table2_10times.tex`. `run_table1` and `run_table2` return the errors and the runtime; they do not write a TeX file.
+`run_table1_10times` and `run_table2_10times` each average ten runs and write `table1_10times.tex` and `table2_10times.tex`. `run_table1` and `run_table2` return the errors and the runtime; they do not write a TeX file. The figure scripts write EPS files in the working directory. Those generated figures are not stored in this repository.
 
 ## How the code is called
 
@@ -127,7 +127,7 @@ block-AAA, RKFIT, and the Matrix Fitting Toolbox are not part of this work. They
 - The routine used here is `vectfit3.m` (Fast Relaxed Vector Fitting, version 1.0, 8 August 2008). Its header states that the software is **restricted to non-commercial use**.
 - Website: <https://www.sintef.no/projectweb/vectorfitting/>
 - Reference: B. Gustavsen and A. Semlyen, *Rational approximation of frequency domain responses by vector fitting*, IEEE Transactions on Power Delivery 14(3), 1052–1061, 1999.
-- The PDF articles in `matrix_fitting_toolbox_1/` belong to the original toolbox. Their copyright remains with the original authors and publishers.
+- This repository includes the toolbox code required to run the comparisons. It does not include the PDF articles distributed with the original toolbox. Their copyright remains with the original authors and publishers.
 
 ## Citation
 
