@@ -1,16 +1,16 @@
 # Rational minimax approximation of matrix-valued functions
 
-This folder contains the codes used to generate the numerical results in
-
 L.-H. Zhang, Y.-N. Zhang, C. Zhang and S. Han,
-*Rational minimax approximation of matrix-valued functions*, 2025.
-Preprint: <https://arxiv.org/pdf/2508.06378>
+*Rational minimax approximation of matrix-valued functions*.
 
-A PDF of the manuscript is included as
+An earlier description of the m-d-Lawson method is the preprint
+<https://arxiv.org/pdf/2508.06378>.
+This repository reproduces the updated manuscript
 [`mdlawson.pdf`](mdlawson.pdf).
+The codes, tables, and figures here correspond to `mdlawson.pdf`, not to that earlier arXiv version.
 
-The method introduced in that paper is implemented in `m_d_lawson.m`.
-The scripts below reproduce the tables and figures:
+The updated method is implemented in `m_d_lawson.m`.
+The scripts below reproduce the tables and figures in `mdlawson.pdf`:
 
 | Result in the paper | Script |
 | --- | --- |
